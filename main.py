@@ -21,8 +21,8 @@ def main():
     max_tokens = 1_000_000
     min_count = 5
     subsample_t = 1e-4
-    embedding_dim = 50
-    window_size = 2
+    embedding_dim = 100
+    window_size = 3
     epochs = 2
     learning_rate = 0.025
     num_negative = 5
