@@ -7,8 +7,8 @@ def train_word2vec(
     corpus_ids: np.ndarray,
     vocab_size: int,
     neg_probs: np.ndarray,
-    embedding_dim: int = 50,
-    window_size: int = 2,
+    embedding_dim: int = 100,
+    window_size: int = 3,
     epochs: int = 2,
     lr: float = 0.025,
     num_negative: int = 5
