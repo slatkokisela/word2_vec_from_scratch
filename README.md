@@ -41,8 +41,9 @@ After preprocessing:
 - window size: 2  
 - negative samples: 5  
 - epochs: 2  
-- learning rate: 0.025  
+- learning rate: 0.025
+ 
+I used embedding dimension 50 and window size 2 to keep training efficient while still capturing local context.
+Larger dimensions or windows would improve semantic quality, but at a higher computational cost. 
 
 Training is done with a simple SGD loop (no batching).
-
-Loss during training:
